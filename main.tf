@@ -12,6 +12,7 @@ variable "region" {
 
 variable "alert_email" {
   type        = string
+  default     = "saniariza20@gmail.com"
   description = "Email that receives SNS alerts (you must confirm the subscription)"
 }
 
